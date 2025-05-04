@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/themes/bs4esi/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/themes/bs4esi/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/themes/bs4esi/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/themes/bs4esi/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/themes/bs4esi/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8" />
+<meta name="description" content="OpenFOAM - Official home of The Open Source Computational Fluid Dynamics (CFD) Toolbox" />
+<link rel="canonical" href="https://www.openfoam.com/trainings/courses/core-advanced" />
+<meta property="og:site_name" content="OpenFOAM" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.openfoam.com/trainings/courses/core-advanced" />
+<meta property="og:title" content="Core: Advanced" />
+<meta property="og:description" content="OpenFOAM - Official home of The Open Source Computational Fluid Dynamics (CFD) Toolbox" />
+<meta property="og:image" content="https://www.openfoam.com/themes/bs4esi/img/logo-1200x627.jpg" />
+<meta name="twitter:description" content="OpenFOAM - Official home of The Open Source Computational Fluid Dynamics (CFD) Toolbox" />
+<meta name="twitter:site" content="@openfoam" />
+<meta name="twitter:title" content="Core: Advanced" />
+<meta name="twitter:image" content="https://www.openfoam.com/themes/bs4esi/img/logo-1200x627.jpg" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.openfoam.com/trainings/courses/core-advanced" />
+
+    <title>Core: Advanced</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_KS8q5Dq8Xjae1SU2XgZZlci0P0D_1LVlQjz3CDqBd3g.css?delta=0&amp;language=en&amp;theme=bs4esi&amp;include=eJxljlFywzAIRC-kiJ_ex4MkalNjoREosW9ft2kmmfQH2H3sQLIPMoYsaHZcsm5NK1W3kO5gFk0oF_NDuM4hayGr3Bo5vMzxh1Ms9IlD_NwS7Ul3eBq6Mk12Y88LdXjTJ-8EpY-GEvEL93CenvJKhV37dOVCCv-tQLufX62P5J8MDTvOHdtiD_J04qhtJGFbqATzzo3g3oId5rRBQqNwZboZ_Na4aRlC38EodLo" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_E8yc6hXMPK1E7_OemwZtAzFxO-dYLGajOydvzyfC9gM.css?delta=1&amp;language=en&amp;theme=bs4esi&amp;include=eJxljlFywzAIRC-kiJ_ex4MkalNjoREosW9ft2kmmfQH2H3sQLIPMoYsaHZcsm5NK1W3kO5gFk0oF_NDuM4hayGr3Bo5vMzxh1Ms9IlD_NwS7Ul3eBq6Mk12Y88LdXjTJ-8EpY-GEvEL93CenvJKhV37dOVCCv-tQLufX62P5J8MDTvOHdtiD_J04qhtJGFbqATzzo3g3oId5rRBQqNwZboZ_Na4aRlC38EodLo" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/32","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx1jt1SxDAIhV8oG258nw5pMGGbhkwgu923N7o6ah0v-DkfzIGgL6QMa0HVx2WVvUmlaurCc5CKBCwXtUfhmtwqkbRya2Two_eZUy4z7Kr_7rx7kI_0iqPY3CrSgxxwBgvXeYrgpOdcNqZF72xrpg4n7ea3y7pRZJO-3DiSwF_k6LDptkHso2Hxn9IlkVRoMUyQZjprj1c8fsPd7Wh5YlCy0VzDjqljy_rl_U38qG2EwpopOrXOjeBZnD7UaIeASu7GdFf4yH6XOAq9ASB8os8","theme":"bs4esi","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"google\nnonGooglePixels\nnonGoogleScripts\nnonGoogleIframes","blocklist_classes":"customScripts\ncustomPixels","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NCR6MRD"]},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":true,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"(documentation\/guides\/latest\/doc)","extCssExclude":"footer, .navbar, header, .no-ext-icon","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"mailto","telClass":"","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":true,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fas fa-external-link-alt ml-1 mr-2 small","extFaMailtoClasses":"far fa-envelope  ml-1 mr-2 small","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":[],"extExcludeNoreferrer":""}},"mathjax":{"config_type":0,"config":{"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"processEscapes":"true"},"showProcessingMessages":"false","messageStyle":"none"}},"csp":{"nonce":"mVmYIrCXjDzrRXyOSLeirQ"},"user":{"uid":0,"permissionsHash":"30b0e0b551da1509ea539b9a937925152d3a81cd45263963ae52be241e4ef706"}}</script>
+<script src="/sites/default/files/js/js_kt3vftelaudl917VXx6SazmKuW-UPIKXPYuZRbLtHkc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=bs4esi&amp;include=eJxdjFsOg0AIRTc0lZ_ux4xKGRRlMmBqd18Sm6b1g8c53DDYHY2BRIcsN_OX8EZp1Alt41rR4WfvClORKJ8tMqJt0AMmfORd_Ct63uIJwoXjrgtjb0_2sWCDCyc8PHILTG2vWboPJlIlwd4zAUW7cpfnfPzLNa3ZS2gw9L0m88YV4Rxv5mtetA"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?sv7of3"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?sv7of3"></script>
+
+  </head>
+  <body class="path-node page-node-type-standard-paragraph-page">
+
+    
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCR6MRD"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div class="layout-container page--front">
+
+    <header class='header pt-3' role="banner">
+        
+<div class="container">
+
+    <div class="row d-none d-lg-flex">
+
+        <div class="col-8 col-md-4">
+            <a class="navbar-brand m-md-3" href="https://www.openfoam.com/"><img class="navbar-brand" src="/themes/bs4esi/img/openfoam-logo.png?v20210416" alt="logo"></a>
+        </div>
+
+        <div class="col-md-4 text-center ">
+
+
+            <div class="search-container d-lg-flex align-items-center flex-column my-3">
+                 <form action="/search" class="d-none d-lg-block">
+                    <div class="d-flex align-items-center searchbar">
+                        <input type="text" placeholder="Search.." name="search" class="w-100">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="col-4 d-none d-md-block text-right">
+          <a class="navbar-brand mx-3 m-md-3 mt-md-4" href="http://www.esi-group.com/" target="_blank"><img class="navbar-brand" src="/themes/bs4esi/img/keysight.png?v20250101" alt="logo"></a>
+                  </div>
+
+    </div>
+
+</div>
+
+<nav class="navbar navbar-expand-lg w-100">
+
+    <div class="container">
+
+        <div class="d-lg-none p-0 m-0 col-6">
+            <a class="navbar-brand m-0 " href="https://www.openfoam.com/"><img class="navbar-brand img-fluid" src="/themes/bs4esi/img/openfoam-logo.png?v20201110" alt="logo"></a>
+        </div>
+
+        <div class="d-flex align-items-end">
+            <!--
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#searchBar">
+                <i class="fas fa-search"></i>
+            </button>
+-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="search-container d-lg-none align-items-center flex-column mb-1 mt-4">
+                <form action="/search" >
+                    <div class="d-flex align-items-center searchbar">
+                        <input type="text" placeholder="Search.." name="search" class="w-100">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+
+            
+
+
+
+
+
+
+<ul class="navbar-nav ml-auto ">
+                            <ul class="navbar-nav">
+        
+        
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown first">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >Industries</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/industries/automotive-and-land-transportation" class="dropdown-item py-2 py-md-1"  ><span>Automotive and Land Transportation</span></a>
+                            
+                                    
+
+                                                                                                            
+                            <a href="/industries/ventilation" class="dropdown-item py-2 py-md-1"  ><span>Ventilation</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >Products &amp; Services</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/products-services/openfoam-software-support" class="dropdown-item py-2 py-md-1"  ><span>OpenFOAM®  Support</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/products-services/openfoam-code-development" class="dropdown-item py-2 py-md-1"  ><span>OpenFOAM®  Code Development</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/products-services/openfoam-engineering-services" class="dropdown-item py-2 py-md-1"  ><span>OpenFOAM®  Engineering Services</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown active">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >Trainings</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/trainings/about-trainings" class="dropdown-item py-2 py-md-1"  ><span>About trainings</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/trainings/courses" class="dropdown-item py-2 py-md-1"  ><span>Courses</span></a>
+                            
+                                    
+
+                                                                                                            
+                            <a href="/trainings/training-schedule-and-booking" class="dropdown-item py-2 py-md-1"  ><span>Schedule & Booking</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/trainings/virtual-trainings" class="dropdown-item py-2 py-md-1"  ><span>Virtual trainings</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/trainings/on-site-trainings" class="dropdown-item py-2 py-md-1"  ><span>On-site trainings</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/trainings/training-locations" class="dropdown-item py-2 py-md-1"  ><span>Training locations</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/trainings/training-enquiries" class="dropdown-item py-2 py-md-1"  ><span>Training Enquiries</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/trainings/training-terms-and-conditions" class="dropdown-item py-2 py-md-1"  ><span>Terms and Conditions</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >Documentation</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/documentation/overview" class="dropdown-item py-2 py-md-1"  ><span>Overview</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://develop.openfoam.com/Development/openfoam/-/wikis/home" class="dropdown-item py-2 py-md-1"  target="_blank"><span>Code wiki <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                            
+                                    
+
+                                                                                                            
+                            <a href="/documentation/system-requirements" class="dropdown-item py-2 py-md-1"  ><span>System Requirements</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://doc.openfoam.com/2306/" class="dropdown-item py-2 py-md-1"  target="_blank"><span>User Guide <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://wiki.openfoam.com/" class="dropdown-item py-2 py-md-1"  target="_blank"><span>Tutorial Wiki <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/documentation/licencing" class="dropdown-item py-2 py-md-1"  ><span>Licencing</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >Governance</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/governance/overview" class="dropdown-item py-2 py-md-1"  ><span>Overview</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/structure" class="dropdown-item py-2 py-md-1"  ><span>Structure</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/steering-committee" class="dropdown-item py-2 py-md-1"  ><span>Steering Committee</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/technical-committees" class="dropdown-item py-2 py-md-1"  ><span>Technical Committees</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/how-to-get-involved" class="dropdown-item py-2 py-md-1"  ><span>How to get involved</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/governance-documents" class="dropdown-item py-2 py-md-1"  ><span>Documents</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/partners" class="dropdown-item py-2 py-md-1"  ><span>Partners</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/governance/projects" class="dropdown-item py-2 py-md-1"  ><span>Projects</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >Download</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/news/main-news/openfoam-v2412" class="dropdown-item py-2 py-md-1"  ><span>Current Release</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled" class="dropdown-item py-2 py-md-1"  target="_blank"><span>Linux <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://develop.openfoam.com/Development/openfoam/-/wikis/building#darwin-mac-os" class="dropdown-item py-2 py-md-1"  target="_blank"><span>macOS <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled/windows" class="dropdown-item py-2 py-md-1"  target="_blank"><span>Windows <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="https://develop.openfoam.com/Development/openfoam/-/blob/master/doc/Build.md" class="dropdown-item py-2 py-md-1"  target="_blank"><span>Source <i class='fas fa-external-link-alt ml-1 small'></i></span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/download/release-history" class="dropdown-item py-2 py-md-1"  ><span>Release history</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/download/openfoam-repositories" class="dropdown-item py-2 py-md-1"  ><span>Repositories</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/download/openfoam-bug-reporting" class="dropdown-item py-2 py-md-1"  ><span>Bug reporting</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                                                                                    
+                            <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle"  data-toggle=dropdown  >News</a>
+                                                                    <div class="dropdown-menu py-3" aria-labelledby="navbarDropdown">
+            <div class="arrow-up"></div>
+        
+        
+                                    
+
+                                                                                                            
+                            <a href="/news/main-news" class="dropdown-item py-2 py-md-1"  ><span>Main news</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/news/news-on-twitter" class="dropdown-item py-2 py-md-1"  ><span>News on Twitter</span></a>
+                    
+                                    
+
+                                                                                                            
+                            <a href="/news/history" class="dropdown-item py-2 py-md-1"  ><span>History</span></a>
+                                        </div>
+            
+                                    </li>
+                    
+                                    
+
+                                                                                                                                                            
+                            <li class="nav-item"><a href="/contact-us" class="nav-link"  >Contact us</a></lis>
+                    
+                                    
+
+                                                                                                                                                            
+                            <li class="nav-item last"><a href="/careers" class="nav-link"  >Careers</a></lis>
+                                        </ul>
+            
+</ul>
+
+
+        </div>
+
+    </div>
+
+</nav>
+
+    </header>
+
+    
+
+    
+
+      <div>
+    <div id="block-bs4esi-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+      
+<div class="container-fluid small bg-gray-200">
+    <nav aria-label="breadcrumb" class="container">
+        <ol class="breadcrumb">
+                  <li>
+                          <a href="/">Home</a>
+                      </li>
+                  <li>
+                          Trainings
+                      </li>
+                  <li>
+                          <a href="/trainings/courses">Courses</a>
+                      </li>
+            </ol>
+  </nav>
+</div>
+
+
+    </div>
+  </div>
+
+  </div>
+
+
+      <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+    
+
+    <a href='https://www.openfoam.com/current-release' class='call2action d-none d-sm-block horizontal'>Download</a>
+
+    <main role="main">
+
+        <div class="container-fluid bg-primary p-2">
+        </div>
+
+        <a id="main-content" tabindex="-1"></a>
+                    <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-xl-2 sidebar_first pt-5">
+                          <div>
+    <nav role="navigation" aria-labelledby="block-coursesmenu-menu" id="block-coursesmenu">
+      
+    <div class="d-block d-lg-none w-100 pb-1">
+        <button class="btn btn-primary d-block w-100" data-toggle="collapse" href="#collapseblock-coursesmenu" role="button" aria-expanded="false" aria-controls="collapseblock-coursesmenu">
+            Courses
+        </button>
+    </div>
+
+  
+
+      <div class="collapse d-lg-block py-2" id="collapseblock-coursesmenu">
+        <p id="block-coursesmenu-menu" class="h5 px-3">Courses</p>
+      
+
+
+
+<ul class="menu_sidebar m-0 p-0">
+        
+        <ul>
+
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/core-foundation" class=" level_0 py-2"  ><span></span>Core: Foundation</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/core-advanced" class=" level_0 py-2"  ><span></span>Core: Advanced</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/courses-with-aiaa" class=" level_0 py-2"  ><span></span>Courses with AIAA</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/applications-adjoint-optimisation" class=" level_0 py-2"  ><span></span>Applications: Adjoint Optimisation</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/applications-aerospace" class=" level_0 py-2"  ><span></span>Applications: Aerospace</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/applications-external-aerodynamics" class=" level_0 py-2"  ><span></span>Applications: External Aerodynamics</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/applications-fire-modelling" class=" level_0 py-2"  ><span></span>Applications: Fire Modelling</a></li>
+
+            
+        
+                        
+                                                        
+            <li><a href="/trainings/courses/applications-overset" class=" level_0 py-2"  ><span></span>Applications: Overset</a></li>
+
+            
+        
+        </ul>
+
+    
+
+</ul>
+
+      </div>
+</nav>
+
+  </div>
+
+                    </div>
+                    <div class="col-lg-8 col-xl-8 ">
+                        <div class="layout-content">
+                                <div>
+        <div id="block-bs4esi-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+
+
+
+    <div class="container-fluid">
+        <div class="container py-5">
+            <span class="font-weight-bold text-color-gray"><h1>Core: Advanced Course</h1></span>
+
+        </div>
+    </div>
+
+
+
+            <div>
+                            <div>
+
+        
+                        
+    
+
+
+
+<div class=" ">
+
+    <div class="container  margin- ">
+
+                
+        <div class=" row   ">
+
+            
+                            <div class="col-md-12   p-0  ">
+                    
+            <div>
+                            <div>
+    <div class="font_size_editor py-4 px-3 w-100">
+                    
+                        <div><div class="tex2jax_process"><p>This course covers advanced topics on the open source CFD toolbox, OpenFOAM. It is designed to enable the participants to use OpenFOAM effectively on real engineering problems and develop the toolbox to suit their needs. It covers general use and programming of OpenFOAM, building on topics presented earlier in the Foundation Course.</p></div></div>
+            
+            </div>
+</div>
+                            <div>
+    <div class="font_size_editor py-4 px-3 w-100">
+                    
+                        <div><div class="tex2jax_process"><p><div class="js-view-dom-id-e976e3e42fcb2661c216997fd2949757f0e2e0aa402ddcbf48a9bb171082a3e6">
+  
+  
+  
+
+  
+  
+  
+
+    
+
+  
+  
+
+  
+  
+</div>
+</p>
+
+<p><a href="/node/28?f[0]=course:Core: Advanced">view all scheduled Advanced Course trainings</a></p></div></div>
+            
+            </div>
+</div>
+                    </div>
+    
+                </div>
+            
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+
+</div>
+                            <div>
+
+        
+                        
+    
+
+
+
+<div class=" ">
+
+    <div class="container  margin- ">
+
+                
+        <div class=" row  ">
+
+            
+                            <div class="col-md-12  d-flex align-content-center flex-wrap px-2  ">
+                    
+            <div>
+                            <div>
+    <div class="font_size_editor py-4 px-3 w-100">
+                    
+                        <div><div class="tex2jax_process"><h2>Topics Covered</h2>
+
+<ul>
+	<li>Advanced meshing in OpenFOAM with <span class="text-format-1">snappyHexMesh</span>
+
+	<ul>
+		<li>Effective use of <span class="text-format-1">snappyHexMesh</span></li>
+		<li>Building cell layers</li>
+		<li>Checking mesh quality</li>
+	</ul>
+	</li>
+	<li>Selecting discretisation schemes with respect to mesh quality</li>
+	<li>Tuning of linear solvers and algorithms</li>
+	<li>Setting boundary regions and conditions</li>
+	<li>On-the-fly post-processing</li>
+	<li>Overview of capabilities including
+	<ul>
+		<li>Multiphase flows
+		<ul>
+			<li>Interface capturing, e.g. Volume of Fluid (VoF)</li>
+			<li>Euler-Euler methods</li>
+			<li>Lagrangian particles</li>
+		</ul>
+		</li>
+		<li>Dynamic meshes including overset</li>
+		<li>Heat transfer including radiation</li>
+	</ul>
+	</li>
+</ul>
+
+<p>Dynamic code</p>
+
+<ul>
+	<li>Use of dynamic code customisations in OpenFOAM setup</li>
+</ul>
+
+<p>Boundary conditions in OpenFOAM explained</p>
+
+<ul>
+	<li>implementation of boundary conditions</li>
+	<li>turbulent inlet profile</li>
+	<li>time-varying conditions</li>
+	<li>mixed boundary conditions</li>
+</ul>
+
+<p>Post-processing with Function Objects</p>
+
+<ul>
+	<li>Overview</li>
+	<li>Programming Function Objects</li>
+</ul>
+
+<h2>Course details</h2>
+
+<h4>Running OpenFOAM</h4>
+
+<p>Participants undertake exercises in simulating cases and programming in OpenFOAM using ESI’s Cloud-based HPC computing platform, accessed via a secure ssh connection between desktop PCs (provided) or participants laptops, applicable to all operating systems. All work from the training will be stored on the cloud and participants may download all the work and exercises on their USB flash drives at the end of the training.</p>
+
+<h4>Course materials</h4>
+
+<p>For online courses, users will receive a printable pdf with a manual containing the course presentation and additional materials.<br>
+Classroom attendees will receive a high-quality, A5-sized (80-100 page) wire-bound manual containing the course presentation and additional materials.<br>
+<strong>Please note: registration and payment for classroom courses must be completed at least 10 days in advance of the training date to allow sufficient time for material delivery.</strong></p>
+
+<h4>Language</h4>
+
+<p>The language used in all OpenFOAM courses is English. Translations or delivery in French, German, Italian, Spanish, Chinese, Japanese and Korean languages are available on request.</p>
+
+<h4>Course times</h4>
+
+<p>The course is 2 days in duration and usually runs from 09.00 to 17.30 (local time for classroom training, CET for virtual training) each day.</p>
+
+<h4>Target audience</h4>
+
+<p>This course is for those users with a broad basic knowledge of OpenFOAM, either from the Foundation Course or through general experience, who wish to develop their skills for more advanced CFD and OpenFOAM programming — see “<a data-drupal-button-link-style="btn-outline-primary" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="61b75fd9-0580-4ad8-8822-e11d21f62442" href="/trainings/suitability-of-openfoam-courses" title="Suitability of OpenFOAM Courses">information on course suitability</a>” for further details.</p>
+
+<h4>Prerequisites</h4>
+
+<p>This course follows on from the Foundation Course in OpenFOAM, which introduces the use of OpenFOAM, Linux, C++ programming, the finite volume method, etc. We recommend users undertake the OpenFOAM Foundation Course prior to this course, but it is not essential for more experienced OpenFOAM users.</p>
+
+<p>&nbsp;</p></div></div>
+            
+            </div>
+</div>
+                    </div>
+    
+                </div>
+            
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+
+</div>
+                    </div>
+    
+    </div>
+  </div>
+
+    </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-xl-2">
+                    </div>
+                </div>
+            </div>
+        
+        
+    </main>
+
+            <footer role="contentinfo">
+                        
+            <div class="social-media-share d-none d-md-block text-center">
+                <small>Share</small>
+                <br />
+                <a href="https://www.facebook.com/sharer.php?u=https://www.openfoam.com/trainings/courses/core-advanced&title=Core: Advanced" target="_blank"><i class="fab fa-2x fa-facebook-square text-color-facebook"></i></a>
+                <br />
+                <a href="https://twitter.com/share?text=Core: Advanced&amp;url=https://www.openfoam.com/trainings/courses/core-advanced" target="_blank"><i class="fab fa-2x fa-twitter-square text-color-twitter"></i></a>
+                <br />
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.openfoam.com/trainings/courses/core-advanced&title=Core: Advanced&source=ESI%20Group" target="_blank"><i class="fab fa-2x fa-linkedin text-color-linkedin"></i></a>
+            </div>
+
+            <div class="d-block d-md-none fixed-bottom d-flex w-100">
+                <div class="bg-white btn btn-sm text-center">Share</div>
+                <div class="bg-facebook w-100"><a class="flex-fill btn btn-sm w-100" href="https://www.facebook.com/sharer.php?u=https://www.openfoam.com/trainings/courses/core-advanced&title=Core: Advanced" target="_top"><span class="text-color-white">facebook</span></a></div>
+                <div class="bg-twitter w-100"><a class="flex-fill btn btn-sm w-100" href="https://twitter.com/share?text=Core: Advanced&amp;url=https://www.openfoam.com/trainings/courses/core-advanced" target="_top"><span class="text-color-white">twitter</span></a></div>
+                <div class="bg-linkedin w-100"><a class="flex-fill btn btn-sm w-100" href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.openfoam.com/trainings/courses/core-advanced&title=Core: Advanced&source=ESI%20Group" target="_top"><span class="text-color-white">linkedIn</span></a></div>
+            </div>
+                        
+<div id="cookie_gdpr">
+
+                <div>
+                    <span class="title">Cookie Disclaimer</span>
+                    <small>This site uses cookies in order to improve your user experience and to provide content tailored specifically to your interests. Detailed information on the use of cookies on this website is provided in our Privacy Policy. Click "Learn More" to change you cookie settings. By using this website, you consent to the use of cookies.</small>
+                    <br />
+                    <br />
+                    <a id="cookieAgree" class="btn btn-primary py-1 px-5 mr-5    ">OK</a>
+                    <a href="/cookie-settings" id="cookieSettings">Learn more</a>
+                </div>
+            </div>
+<a href="#" id="back-to-top" title="Back to top" class="text-center show"><i class="fas fa-chevron-up fa-2x"></i></a>
+
+    <div class="bg-gray-200 bg-gray-200 m-0 mt-5">
+        <div class="container">
+            <div class="row d-flex align-content-center justify-content-center">
+                <div class="col-md-8 mt-5 mb-5">
+                    <div class="">
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                        <script>
+                            hbspt.forms.create({
+                                portalId: "47388179",
+                                formId: "bccc58ff-2a87-40c7-8b92-de2afcdc5328"
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="bg-primary p-5 text-center text-md-left">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 small">
+                <img class="img-fluid my-3" src="/themes/bs4esi/img/openfoam-logo.png?v20210416" alt="logo">
+                <br/>
+                OpenCFD is an affiliate of KEYSIGHT<br/>
+            </div>
+            <div class="col-md-4 small pt-5 pt-m-0 text-center text-md-right">
+                <a href="https://twitter.com/openfoam" class="mx-1" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://www.linkedin.com/company/opencfd-limited" class="mx-1" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <br/>
+                <br/>
+                <img class="img-fluid my-3" src="/themes/bs4esi/img/keysight.png?v20250103" alt="logo">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-primary-dark p-3 py-5 py-lg-3">
+    <div class="container small d-md-flex text-center">
+        <span class="mr-auto p-2">© OpenCFD Ltd 2025</span>
+        <a href="/about-esi-opencfd" class="link d-block d-md-inline-block p-2">About</a>
+        <a href="/business-privacy-policy" class="link d-block d-md-inline-block p-2">Legal</a>
+        <a href="/cookie-settings" class="link d-block d-md-inline-block p-2">Cookies</a>
+    </div>
+</div>
+
+        </footer>
+    
+</div>
+
+  </div>
+
+    
+
+    <script src="/sites/default/files/js/js_W2SzToxOpyJD984i-KNrn-CzglnwQVcIhv5mKym4KXI.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=bs4esi&amp;include=eJxdjFsOg0AIRTc0lZ_ux4xKGRRlMmBqd18Sm6b1g8c53DDYHY2BRIcsN_OX8EZp1Alt41rR4WfvClORKJ8tMqJt0AMmfORd_Ct63uIJwoXjrgtjb0_2sWCDCyc8PHILTG2vWboPJlIlwd4zAUW7cpfnfPzLNa3ZS2gw9L0m88YV4Rxv5mtetA"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="/sites/default/files/js/js_-PoPGxVVHd_2Qf8VlftlrulggcY1lddgkOyzwbmWoaE.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=bs4esi&amp;include=eJxdjFsOg0AIRTc0lZ_ux4xKGRRlMmBqd18Sm6b1g8c53DDYHY2BRIcsN_OX8EZp1Alt41rR4WfvClORKJ8tMqJt0AMmfORd_Ct63uIJwoXjrgtjb0_2sWCDCyc8PHILTG2vWboPJlIlwd4zAUW7cpfnfPzLNa3ZS2gw9L0m88YV4Rxv5mtetA"></script>
+<script src="https://js.stripe.com/v3/"></script>
+<script src="/sites/default/files/js/js_CSLNmjen-Jnjs4Ywkwygz1Ezay0hELyapJAiogVmALU.js?scope=footer&amp;delta=4&amp;language=en&amp;theme=bs4esi&amp;include=eJxdjFsOg0AIRTc0lZ_ux4xKGRRlMmBqd18Sm6b1g8c53DDYHY2BRIcsN_OX8EZp1Alt41rR4WfvClORKJ8tMqJt0AMmfORd_Ct63uIJwoXjrgtjb0_2sWCDCyc8PHILTG2vWboPJlIlwd4zAUW7cpfnfPzLNa3ZS2gw9L0m88YV4Rxv5mtetA"></script>
+
+
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9385aaaa8b7413d3',t:'MTc0NjAwMTcxNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
