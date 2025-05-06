@@ -1,3 +1,3 @@
-Exercises
+# Workshop overview
 
-[test exercise](https://github.com/krajit/langchain_langraph_workshop/issues/1)
+- **Prompt Engineering**: Practice talking with LLMs. [Notebook](nb01_TalkingToLLMs_Prompting.ipynb)
