@@ -11,11 +11,11 @@
 ## **[Langgraphs basics](nb04_Langraph_basics.ipynb)** 
   
   
-### [Router](studio\\router.py)
+### [Router](studio\router.py)
 ![alt text](image.png)
-### [Simple Agent](studio\\agent.py)
+### [Simple Agent](studio\agent.py)
 ![alt text](image-1.png)
-### [Agent with WebSearch capacity](studio\\webSearchAgent.py)
+### [Agent with WebSearch capacity](studio\webSearchAgent.py)
 ![alt text](image-2.png)
 
 
