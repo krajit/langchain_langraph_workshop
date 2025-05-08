@@ -1,7 +1,7 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "simple_chatbot_02": "./simple_chatbot_02.py:graph"
+    "web agent": "./webSearchAgent.py:react_graph"
   },
   "env": "./../.env",
   "python_version": "3.11",
