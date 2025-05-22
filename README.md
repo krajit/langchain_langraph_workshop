@@ -20,4 +20,20 @@
 
 
 
-## **[TODO]A multiagent Research Assistant**
+
+## **[TODO Next Time]A multiagent Assistant**
+
+### [TODO] Multi agent swarm
+https://www.youtube.com/watch?v=WTr6mHTw5cM
+https://www.youtube.com/watch?v=4oC1ZKa9-Hs
+
+
+https://mirror-feeling-d80.notion.site/Fully-Local-Multi-Agent-1b5808527b178066bde0ed981b27998c
+
+
+
+### [TODO] Research Assistant https://github.com/krajit/open_deep_research_langgraph
+https://www.youtube.com/watch?v=2mSNIX-l_Zc
+
+
+

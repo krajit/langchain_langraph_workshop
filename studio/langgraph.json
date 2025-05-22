@@ -1,7 +1,7 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "web agent": "./webSearchAgent.py:react_graph"
+    "test agent": "./agent_practice_01.py:graph"
   },
   "env": "./../.env",
   "python_version": "3.11",
